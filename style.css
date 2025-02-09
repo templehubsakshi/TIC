@@ -1,1 +1,118 @@
+body{
+  display: flex;
+  background: black;
+}
+.canvas{
+  border: 5px solid rgb(255, 255, 255);
+  top: 0px;
+  left: 0px;
+  position: absolute;
+  
+}
 
+.grid-cont{ /* grid container*/
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  grid-template-rows: repeat(3,100px);
+  gap: 1px;
+  background-color: rgb(11, 11, 11);
+  box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+  border-radius: 20px;
+  top: 130px;
+  left: 500px;
+  position: absolute;
+  justify-content: center;
+}
+.grid{
+  display: flex;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-shadow: 0px 10px 20px rgb(0,0,0,0.5);
+  border-radius: 20px;
+  font-size: 40px;
+
+}
+.player_X{
+  font-size: 25px;
+  position: fixed;
+  top:200px;
+  left: 150px;
+  padding: 8px;
+  align-items: center;
+  
+  background-color:grey;
+  color: #fffbfb;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+ 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.player_O{
+  font-size: 25px;
+  position: fixed;
+  top:200px;
+  left: 900px;
+  padding: 8px;
+  align-items: center;
+ 
+  background-color: grey;
+  color: #d5d5d5;
+  border-radius: 10px;
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.timer1 {
+  font-size: 20px;
+  position:fixed;
+  top:260px;
+  left: 200px;
+  padding: 8px;
+  align-items: center;
+  
+  background-color: #313131;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.timer2 {
+  font-size: 20px;
+ position: fixed;
+ top:260px;
+  left: 950px;
+  padding: 8px;
+  background-color: #313131;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+  width: 100px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.turn{
+  font-size: 20px;
+ position: fixed;
+ top:500px;
+  left: 540px;
+  padding: 8px;
+  background-color: #313131;
+  color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  height: 30px;
+  width: 200px;
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
